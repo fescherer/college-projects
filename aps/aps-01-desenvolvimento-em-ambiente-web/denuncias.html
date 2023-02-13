@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Save the Green</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/folha_invertida.png">
+  </head>
+  <body>
+
+    <header>
+        <a href="home.html"><img src="img/logo2.png" class="logo" alt="logo.png"></a>
+
+        <input type="checkbox" class="nav-toggle" id="nav-toggle">
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="home.html" >Home</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="rrr.html">O que significa RRR</a></li>
+          <li><a href="cores.html">Cores dos lixos</a></li>
+          <li><a href="ecopontos.html">Ecopontos</a></li>
+          <li><a href="denuncias.html" class="active">Denúncias</a></li>
+          <li><a href="aplicativo.html">Aplicativo</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span>&#9776;</span>
+      </label>
+    </header> <!-- Header --> <!-- Cabeçalho -->
+
+<br><br><br><br>
+
+<article ><center>
+  <div class="text">
+	<h2>Descarte de lixo ilegal aqui não!<img src="img_bart/041-detective.png" class="bart" title="Bart"></h2>
+  <p>Ajude-nos a deixar a encontrar quem faz descarte ilegal de lixo em campinas e região, preencha o formulário abaixo para realizar uma denúncia.</p>
+  <div class="formulario">
+    <form>
+         <label> <br> Nome completo:</label>
+         <br><input type="text" placeholder="Ex: Machado de Assis">
+
+         <label> <br> Telefone para contato: </label>
+         <br><input type="number" placeholder="Ex: (19)99999-9999" size="11">
+
+         <label> <br> E-Mail:</label>
+         <br><input type="text" placeholder="Ex: exemplo@email.com">
+
+         <h2>Informações do descarte irregular de lixo</h2>
+
+         <label>Onde o descarte foi feito?</label>
+             <br><select>
+                 <option>Selecione o local</option>
+                 <option>Vias públicas</option>
+                 <option>Terrenos</option>
+                 <option>Córregos</option>
+             </select>
+
+         <label><br>Qual o tipo de lixo descartado no local?</label>
+         <br><select>
+               <option>Selecione o tipo de lixo</option>
+               <option>Lixo industrial</option>
+               <option>Lixo doméstico</option>
+               <option>Não sei informar</option>
+           </select>
+
+         <label><br>Saberia identificar quem jogou o lixo?</label>
+         <br><input type="text" placeholder="Ex: Prefeito"></input>
+
+         <label for="cidade"><br>Cidade do descarte:</label> <!-- Trocar -->
+         <br><select>
+               <option>Selecione a cidade</option>
+               <option>Americana</option>
+               <option>Artur Nogueira</option>
+               <option>Campinas</option>
+               <option>Cosmópolis</option>
+               <option>Engenheiro Coelho</option>
+               <option>Holambra</option>
+               <option>Hortolândia</option>
+               <option>Indaiatuba</option>
+               <option>Itatiba</option>
+               <option>Jaguariúna</option>
+               <option>Monte Mor</option>
+               <option>Nova Odessa</option>
+               <option>Paulínia</option>
+               <option>Pedreira</option>
+               <option>Santo Ântonio de Posse</option>
+               <option>Sta. Bárbara D'Oeste</option>
+               <option>Sumaré</option>
+               <option>Valinhos</option>
+               <option>Vinhedo</option>
+           </select>
+
+           <label for="bairro"><br>Bairro do descarte:</label>
+           <br><input type="text" placeholder="Ex: Cambuí">
+
+         <label for="rua"><br>Rua do descarte:</label>
+         <br><input type="text" placeholder="Ex: Rua Benjamin Constant">
+
+         <label for="descrição"><br>Informações adicionais:</label>
+         <br><textarea type="text" placeholder="Escreva aqui algumas informações adicionais"  Style="height:100px" ></textarea>
+
+        <br><input type="submit" value="Enviar" onclick=alerta()>
+
+    </form>
+    </div>
+    </div></center>
+
+    <div class="collum">
+      <h3>Conheça as ONGS ambientais</h3>
+
+      <a href="https://www.greenpeace.org/brasil/" target="_blank"><img src="img_ong/greenpeace.png" title="Greenpeace" class="greenpeace"></a>
+      <p>Greenpeace</p>
+
+      <a href="https://www.wwf.org.br/" target="_blank"><img src="img_ong/wwf.png" title="World Wide Fund for Nature" class="wwf"></a>
+      <p>WWF (World Wide Fund for Nature)</p>
+
+      <a href="https://www.sikana.tv/pt-br" target="_blank"><img src="img_ong/sikana.png" title="Sikana" class="sikana"></a>
+      <p>Sikana</p>
+
+      <a href="https://water.org/" target="_blank"><img src="img_ong/water.png" title="Water" class="water"></a>
+      <p>Water</p>
+
+      <a href="https://www.ipe.org.br/" target="_blank"><img src="img_ong/ipe.png" title="Instituto de Pesquisas Ecológicas" class="ipe"></a>
+      <p>IPE (Instituto de Pesquisas Ecológicas)</p>
+
+      <a href="http://www.sosamazonia.org.br/" target="_blank"><img src="img_ong/sosamazônia.png" title="SOS Amazônia" class="sos-amazonia"></a>
+      <p>SOS Amazônia</p>
+
+      <a href="https://www.socioambiental.org/pt-br" target="_blank"><img src="img_ong/isa.png" title="Instituto Sócio ambiental" class="isa"></a>
+      <p>ISA (Instituto Sócio ambiental)</p>
+
+      <a href="http://seashepherd.org.br/" target="_blank"><img src="img_ong/seashepherd.png" title="Sea Shepherd" class="sea-shepherd"></a>
+      <p>Sea Shepherd</p>
+
+    </div>
+</article>
+
+
+<footer class="foot">
+    <ul>
+    <li>Entre em contato conosco:</li><br>
+    <li><img src="img_bart/022-computer.png" alt="Bart" class="bart" title="Bart computador">Email: apsunipccdiurno@gmail.com</li>
+    <li><img src="img_bart/035-car.png" alt="Bart" class="bart" title="Bart carro">Endereço: Av. Comendador Enzo Ferrari, 280 - Swift, Campinas - SP, 13045-770</li>
+    <li><img src="img_bart/029-phone-call.png" alt="Bart" class="bart" title="Bart telefone">Telefone: (19)9999-9999</li>
+  </ul>
+
+
+	<script src="js/script.js"></script>
+
+
+  </body>
+</html>
