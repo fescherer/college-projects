@@ -1,0 +1,78 @@
+Relatorio do dia 16/11/2021:
+
+Produtos vendidos: 
+Total: 256
+Total (preco): 4360
+
+ID: 0
+Nome: Peixe
+Preco unitario: 20
+Quantidade vendida: 16
+Quantidade ganha (preco): 320
+
+ID: 1
+Nome: Panquecas
+Preco unitario: 18
+Quantidade vendida: 14
+Quantidade ganha (preco): 252
+
+ID: 2
+Nome: Churrasco
+Preco unitario: 40
+Quantidade vendida: 27
+Quantidade ganha (preco): 1080
+
+ID: 3
+Nome: Frango grelhado
+Preco unitario: 21
+Quantidade vendida: 21
+Quantidade ganha (preco): 441
+
+ID: 4
+Nome: Frango a parmegiana
+Preco unitario: 23
+Quantidade vendida: 30
+Quantidade ganha (preco): 690
+
+ID: 5
+Nome: Macarrao
+Preco unitario: 21
+Quantidade vendida: 22
+Quantidade ganha (preco): 462
+
+ID: 6
+Nome: Bife ao molho madeira
+Preco unitario: 21
+Quantidade vendida: 19
+Quantidade ganha (preco): 399
+
+ID: 7
+Nome: Refrigerante lata
+Preco unitario: 6
+Quantidade vendida: 16
+Quantidade ganha (preco): 96
+
+ID: 8
+Nome: Refrigerante 2L
+Preco unitario: 12
+Quantidade vendida: 22
+Quantidade ganha (preco): 264
+
+ID: 9
+Nome: Agua
+Preco unitario: 3
+Quantidade vendida: 20
+Quantidade ganha (preco): 60
+
+ID: 10
+Nome: Suco (Outros)
+Preco unitario: 8
+Quantidade vendida: 25
+Quantidade ganha (preco): 200
+
+ID: 11
+Nome: Cafe
+Preco unitario: 4
+Quantidade vendida: 24
+Quantidade ganha (preco): 96
+
