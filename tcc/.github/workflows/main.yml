@@ -1,0 +1,21 @@
+name: Create envfile
+
+on: [ push ]
+
+jobs:
+
+  create-envfile:
+ 
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo REACT_APP_FIREBASE_KEY=${{ secrets.REACT_APP_FIREBASE_KEY }} >> .env
+          echo REACT_APP_FIREBASE_DOMAIN=${{ secrets.REACT_APP_FIREBASE_DOMAIN }} >> .env
+          echo REACT_APP_FIREBASE_PROJECT_ID=${{ secrets.REACT_APP_FIREBASE_PROJECT_ID }} >> .env
+          echo REACT_APP_FIREBASE_STORAGE_BUCKET=${{ secrets.REACT_APP_FIREBASE_STORAGE_BUCKET }} >> .env
+          echo REACT_APP_FIREBASE_SENDER_ID=${{ secrets.REACT_APP_FIREBASE_SENDER_ID }} >> .env
+          echo REACT_APP_MESSAGING_APP_ID=${{ secrets.REACT_APP_MESSAGING_APP_ID }} >> .env
+          cat .env
