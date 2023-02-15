@@ -5,7 +5,7 @@
 [![MIT License][license-shield]][license-url]
 
   <br />
-  <a href="https://github.com/ofelipescherer/pokedex">
+  <a href="https://github.com/ofelipescherer/college-projects">
     <img src="https://user-images.githubusercontent.com/62115215/218600027-5eda2e8c-b177-437b-86e4-2003c5ef6eef.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -16,7 +16,7 @@
 APS 2 project
 
 <br />
-<a href="https://github.com/ofelipescherer/pokedex"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/ofelipescherer/college-projects"><strong>Explore the docs »</strong></a>
 <br />
 <br />
 <a href="#about">About</a>
@@ -61,7 +61,7 @@ The project have to be made in Python and was a project to show Ecopoints of Cam
 
 <div align="center">
 
-[![Python][Python]][python-url]
+[![Python][python]][python-url]
 
 </div>
 
@@ -178,22 +178,21 @@ My name is Felipe Scherer and you can find me at:
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/pokedex.svg?style=for-the-badge
-[contributors-url]: https://github.com/ofelipescherer/pokedex/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/pokedex.svg?style=for-the-badge
-[forks-url]: https://github.com/ofelipescherer/pokedex/network/members
-[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/pokedex.svg?style=for-the-badge
-[stars-url]: https://github.com/ofelipescherer/pokedex/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/pokedex.svg?style=for-the-badge
-[issues-url]: https://github.com/ofelipescherer/pokedex/issues
-[license-shield]: https://img.shields.io/github/license/ofelipescherer/pokedex.svg?style=for-the-badge
-[license-url]: https://github.com/ofelipescherer/pokedex/blob/master/LICENSE.md
+[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/college-projects.svg?style=for-the-badge
+[contributors-url]: https://github.com/ofelipescherer/college-projects/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/college-projects.svg?style=for-the-badge
+[forks-url]: https://github.com/ofelipescherer/college-projects/network/members
+[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/college-projects.svg?style=for-the-badge
+[stars-url]: https://github.com/ofelipescherer/college-projects/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/college-projects.svg?style=for-the-badge
+[issues-url]: https://github.com/ofelipescherer/college-projects/issues
+[license-shield]: https://img.shields.io/github/license/ofelipescherer/college-projects.svg?style=for-the-badge
+[license-url]: https://github.com/ofelipescherer/college-projects/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
 [linkedin-url]: https://www.linkedin.com/in/ofelipescherer
 [youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
 [youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
 [github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
 [github-url]: https://github.com/ofelipescherer
-
-[Python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
-[Python-url]: https://www.python.org
+[python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[python-url]: https://www.python.org

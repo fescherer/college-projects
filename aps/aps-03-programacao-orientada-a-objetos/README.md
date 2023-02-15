@@ -1,13 +1,11 @@
-
-
 <a name="readme-top"></a>
 
 <div align="center">
 
-  [![MIT License][license-shield]][license-url]
+[![MIT License][license-shield]][license-url]
 
   <br />
-  <a href="https://github.com/ofelipescherer/pokedex">
+  <a href="https://github.com/ofelipescherer/college-projects">
     <img src="https://user-images.githubusercontent.com/62115215/218600027-5eda2e8c-b177-437b-86e4-2003c5ef6eef.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -18,7 +16,7 @@
 APS 1 project
 
 <br />
-<a href="https://github.com/ofelipescherer/pokedex"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/ofelipescherer/college-projects"><strong>Explore the docs »</strong></a>
 <br />
 <br />
 <a href="#about">About</a>
@@ -41,37 +39,35 @@ APS 1 project
 </p>
 </div>
 
-
-
-
 <!-- **********************🐲About🐲********************** -->
+
 <a name="about"></a>
 
 ## <Emoji project> About <Emoji project>
 
 APS is a semester activity requested by my faculty. Each semester there is a subject that is chosen by the grade and we have to do a work/project related to it.
 
-In the first third, 
+In the first third,
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- **********************🐲Built With🐲********************** -->
+
 <a name="stack"></a>
 
 ## 💻 Built With 💻
 
 <div align="center">
 
-[![HTML 5][HTML 5]][html-url]
-[![CSS 3][CSS 3]][css-url]
+[![HTML 5][html 5]][html-url]
+[![CSS 3][css 3]][css-url]
 
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- **********************🐲Getting Started🐲********************** -->
+
 <a name="install"></a>
 
 ## 🚂 Getting Started 🚂
@@ -92,8 +88,8 @@ To get this project up and running locally on your pc, follow the steps:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- **********************🐲How to use🐲********************** -->
+
 <a name="usage"></a>
 
 ## 🙋 How to use 🙋
@@ -102,11 +98,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 ![Project Gif](https://user-images.githubusercontent.com/62115215/218890434-f4b99bba-c6eb-4060-8ec7-da68e8868eba.gif)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- **********************🐲Report Bug / Request Feature🐲********************** -->
+
 <a name="issue"></a>
 
 ## 🐞 Report Bug / Request Feature 🐞
@@ -115,8 +110,8 @@ If you found a bug or want to request a feature, you can open an [issue](https:/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- **********************🐲Be part of this project🐲********************** -->
+
 <a name="contributing"></a>
 
 ## 👋 Be part of this project 👋
@@ -125,12 +120,10 @@ Contributions are extremely welcome. You can see how to make one by following th
 
 And don't forget to leave a star on the project if you liked it 🤩
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- **********************🐲License🐲********************** -->
+
 <a name="license"></a>
 
 ## ⚖️ License ⚖️
@@ -139,8 +132,8 @@ Distributed under the MIT License. See [License](/LICENSE.md) for more informati
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- **********************🐲Contact Me🐲********************** -->
+
 <a name="contact"></a>
 
 ## 💬 Contact me 💬
@@ -155,11 +148,10 @@ My name is Felipe Scherer and you can find me at:
 
 </div>
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- **********************🐲Contributors🐲********************** -->
+
 <a name="contributors"></a>
 
 ## 🤗 Contributors 🤗
@@ -195,29 +187,26 @@ My name is Felipe Scherer and you can find me at:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/pokedex.svg?style=for-the-badge
-[contributors-url]: https://github.com/ofelipescherer/pokedex/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/pokedex.svg?style=for-the-badge
-[forks-url]: https://github.com/ofelipescherer/pokedex/network/members
-[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/pokedex.svg?style=for-the-badge
-[stars-url]: https://github.com/ofelipescherer/pokedex/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/pokedex.svg?style=for-the-badge
-[issues-url]: https://github.com/ofelipescherer/pokedex/issues
-[license-shield]: https://img.shields.io/github/license/ofelipescherer/pokedex.svg?style=for-the-badge
-[license-url]: https://github.com/ofelipescherer/pokedex/blob/master/LICENSE.md
 
+[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/college-projects.svg?style=for-the-badge
+[contributors-url]: https://github.com/ofelipescherer/college-projects/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/college-projects.svg?style=for-the-badge
+[forks-url]: https://github.com/ofelipescherer/college-projects/network/members
+[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/college-projects.svg?style=for-the-badge
+[stars-url]: https://github.com/ofelipescherer/college-projects/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/college-projects.svg?style=for-the-badge
+[issues-url]: https://github.com/ofelipescherer/college-projects/issues
+[license-shield]: https://img.shields.io/github/license/ofelipescherer/college-projects.svg?style=for-the-badge
+[license-url]: https://github.com/ofelipescherer/college-projects/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
 [linkedin-url]: https://www.linkedin.com/in/ofelipescherer
 [youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
 [youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
 [github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
 [github-url]: https://github.com/ofelipescherer
-
-[HTML 5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[html 5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
-[CSS 3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[css 3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 [css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
