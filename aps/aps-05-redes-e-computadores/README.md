@@ -1,62 +1,114 @@
-# Chat 💬 
+<a name="readme-top"></a>
 
-Projeto desenvolvido para o trabalho semestral do 5º semestre de Ciência da Computação na UNIP-Campinas.
+<div align="center">
 
-# Sobre 📘
+[![MIT License][license-shield]][license-url]
 
-Geralmente estavamos acostumados a sempre fazer o trabalho semestral com Java, porém, nesse semestre fomos permitidos de usar qualquer linguagem e por isso decidimos usar uma das linguagens que mais vem crescendo no mundo - JavaScript.
-Essa linguagem tem dominado o mercado web e junto com os incríveis frameworks está se tornando cada mais mais essencial e obrigatória para desenvolvimento web.
-Por toda essas razões, decidimos usar ela, junto ao framework [*React*](https://reactjs.org) para o front-end e o [*Node*](https://nodejs.org/en) para o back-end.
+  <br />
+  <a href="https://github.com/ofelipescherer/college-projects">
+    <img src="https://user-images.githubusercontent.com/62115215/218600027-5eda2e8c-b177-437b-86e4-2003c5ef6eef.png" alt="Logo" width="80" height="80">
+  </a>
 
-# Objetivo 📋
+<h3 align="center">APS 5</h3>
 
-O objetivo era criar uma aplicação que permita que duas ou mais pessoas possam se comunicar em uma rede, utilizando o protocolo TCP/IP.
+<p align="center">
 
-# Como rodar localmente 📂
-Obs. Estamos supondo que você já tenha o [node js](https://nodejs.org/en) intalado na sua máquina
+APS 5 project
 
-Primeiramente clone o repositorio usando: 
-```
-git clone https://github.com/kellydena/Chat_RC.git
-```
-Em seguida você terá que ir tanto na pasta *"client"* e *"server"* e rodar o seguinte comando:
-```javascript
-npm install
-```
+<br />
+<a href="https://github.com/ofelipescherer/college-projects"><strong>Explore the docs »</strong></a>
+<br />
+<br />
+<a href="#about">About</a>
+•
+<a href="#stack">Build With</a>
+•
+<a href="#install">Getting Started</a>
+•
+<a href="#usage">How to use</a>
+•
+<a href="#issue">Report Bug / Request Feature</a>
+•
+<a href="#contributing">Contributing</a>
+•
+<a href="#contributors">Contributors</a>
+•
+<a href="#license">License</a>
+•
+<a href="#contact">Contact me</a>
+</p>
+</div>
 
-Você já deve ter tudo que precisa. Abra a pasta *"client"* e rode:
-```
-npm start
-```
-E por fim, na pasta *"server"* rode:
-```
-npm start
-```
+<!-- **********************🐲About🐲********************** -->
 
-Pronto, agora abra quantos *"localhosts"* quiser e teste a aplicação
+<a name="about"></a>
 
-# Como funciona? 🙋
-##### React JS
-React é um framework que tem o objetivo de facilitar o desenvolvimento em diversas plataformas, inclusive o mobile se usado o React Native.  
-As duas principais vantagens de se utilizar essa tecnologia são os chamados *componentes* e o que chamamos de *single-page-application*  
-Sobre componentes, eles são pedaços de código que podem ser utilizados em qualquer outro lugar apenas importando eles, o que facilita muito em casos de estruturas muito repetidas como botões, text-fields, etc.  
-Single Page Application é um conceito que diminui o trafego de dados, assim, os economizando.  
-Antigamente, quando se fazia um request para o servidor, ele retornava o HTML/CSS/JavaScript construído. Já com o React, esse código é feito na parte do cliente e quando se faz um request, apenas um arquivo JSON ou um processo de uma ação serão recebidos. 
+## 💬 About 💬
 
-##### Node JS
-Node JS é uma tecnologia que pode ser utilizada para desenvolver servidores. Como é usado JavaScript, muitas semelhanças podem ser notadas e acredito que a maior vantagem seja poder utilizar a mesma linguagem para tanto o front-end quanto o back-end.
+APS is a semester activity requested by my faculty. Each semester there is a subject that is chosen by the grade and we have to do a work/project related to it.
 
-##### Socket.io
-Como dito anteriormente, esse projeto foi feito para comunicação utilizando o protocolo TCP/IP  
-Por isso foi implementado a biblioteca [socket.io](https://socket.io).  
-Essa biblioteca permite comunicação em tempo real, bidirecionada e baseada em evento.  
-Basicamente, ela funciona tentando estabelecer um [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket) se possível, caso não recorrerá a um long polling HTTP. Mais sobre ela, em sua [documentação](https://socket.io/docs/v4).
+In the fifth semester, we did not have classes about programming so the APS was about the Computer Network classes.
 
-##### Principio da comunicação
-A comunicação usada pelo Socket.io funciona dando um ip de broadcast para todos os clientes ou para um conjunto deles(Salas privadas). Em nosso programa, usamos somente salas públicas. Para isso foi usado o seguinte código:  
-![image](https://user-images.githubusercontent.com/62115215/118284285-a58d3e00-b4a6-11eb-8d1e-8fa164e5ee1e.png)  
-Esse pedaço de código(feito no servidor) irá transmitir para qualquer socket conectado a mensagem que no caso é a *data*.
+The goal was to create an application that allows two or more people to communicate over a network, using the TCP/IP protocol.
 
+For this, we want to create a chat connected by socket IO using React.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲Built With🐲********************** -->
+
+<a name="stack"></a>
+
+## 💻 Built With 💻
+
+<div align="center">
+
+[![HTML 5][html 5]][html-url]
+[![CSS 3][css 3]][css-url]
+[![React JS][react.js]][react-url]
+
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲Getting Started🐲********************** -->
+
+<a name="install"></a>
+
+## 🚂 Getting Started 🚂
+
+To get this project up and running locally on your pc, follow the steps:
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ofelipescherer/college-projects.git
+   ```
+2. Go the APS 5 files
+   ```sh
+   cd aps/aps-05-redes-e-computadores/
+   ```
+3. Open folder 'client' and run:
+   ```
+   npm install
+   npm start
+   ```
+4. Open folder 'server' and run:
+   ```
+   npm install
+   npm start
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲How to use🐲********************** -->
+
+<a name="usage"></a>
+
+## 🙋 How to use 🙋
+
+The chat is really simple, and to get started, create a room and start talking :)
 
 ![Project Gif](https://user-images.githubusercontent.com/62115215/218894971-f7b00788-defe-4276-8f1f-02bc74faa5de.png)
 
@@ -65,3 +117,125 @@ Esse pedaço de código(feito no servidor) irá transmitir para qualquer socket 
 ![Project Gif](https://user-images.githubusercontent.com/62115215/218894973-24356c3a-0f85-415c-baef-6799d190d090.png)
 
 ![Project Gif](https://user-images.githubusercontent.com/62115215/218894974-55505798-d2e7-40d5-bbef-b8d69461367e.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲Report Bug / Request Feature🐲********************** -->
+
+<a name="issue"></a>
+
+## 🐞 Report Bug / Request Feature 🐞
+
+If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/college-projects/issues)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲Be part of this project🐲********************** -->
+
+<a name="contributing"></a>
+
+## 👋 Be part of this project 👋
+
+Contributions are extremely welcome. You can see how to make one by following the file [Contributing](/CONTRIBUTING.md)
+
+And don't forget to leave a star on the project if you liked it 🤩
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲License🐲********************** -->
+
+<a name="license"></a>
+
+## ⚖️ License ⚖️
+
+Distributed under the MIT License. See [License](/LICENSE.md) for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲Contact Me🐲********************** -->
+
+<a name="contact"></a>
+
+## 💬 Contact me 💬
+
+My name is Felipe Scherer and you can find me at:
+
+<div align="center">
+
+[![Youtube][youtube-shield]][youtube-url]
+[![Linkedin][linkedin-shield]][linkedin-url]
+[![Github][github-shield]][github-url]
+
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲Contributors🐲********************** -->
+
+<a name="contributors"></a>
+
+## 🤗 Contributors 🤗
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/ofelipescherer">
+        <img src="https://avatars.githubusercontent.com/u/62115215" width="100px;" alt="Felipe Scherer Picture"/><br>
+        <sub>
+          <b>Felipe Scherer</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/viniGuidi">
+        <img src="https://avatars.githubusercontent.com/viniGuidi" width="100px;"  alt="Vinicius Guidi Picture"/><br>
+        <sub>
+          <b>Vinicius Guidi</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Luxyz">
+        <img src="https://avatars.githubusercontent.com/Luxyz" width="100px;"  alt="Jehan Dias Picture"/><br>
+        <sub>
+          <b>Jehan Dias</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/kellydena">
+        <img src="https://avatars.githubusercontent.com/kellydena" width="100px;"  alt="Kelly Dena Picture"/><br>
+        <sub>
+          <b>Kelly Dena</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/college-projects.svg?style=for-the-badge
+[contributors-url]: https://github.com/ofelipescherer/college-projects/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/college-projects.svg?style=for-the-badge
+[forks-url]: https://github.com/ofelipescherer/college-projects/network/members
+[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/college-projects.svg?style=for-the-badge
+[stars-url]: https://github.com/ofelipescherer/college-projects/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/college-projects.svg?style=for-the-badge
+[issues-url]: https://github.com/ofelipescherer/college-projects/issues
+[license-shield]: https://img.shields.io/github/license/ofelipescherer/college-projects.svg?style=for-the-badge
+[license-url]: https://github.com/ofelipescherer/college-projects/blob/master/LICENSE.md
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
+[linkedin-url]: https://www.linkedin.com/in/ofelipescherer
+[youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
+[youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
+[github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
+[github-url]: https://github.com/ofelipescherer
+[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
+[html 5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[css 3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS

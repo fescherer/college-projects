@@ -60,7 +60,6 @@ In the third semester the subject chosen for APS was object oriented programming
 <div align="center">
 
 [![Java][java]][java-url]
-[![MySQL][mysql]][mysql-url]
 
 </div>
 
@@ -86,8 +85,6 @@ To get this project up and running locally on your pc, follow the steps:
    ```
 3. Open the project on Eclipse or other IDE that has support for Java
 
-4. If you want to run the database, you need to install mySQL too. We used WAMP, but you can use other tecnology to open the database.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- **********************🐲How to use🐲********************** -->
@@ -98,7 +95,7 @@ To get this project up and running locally on your pc, follow the steps:
 
 The project is a college managment application. In it you can register a student, a course and a grade.
 
-You can also verify the already registered students, courses and grades. All Saved on database.
+You can also verify the already registered students, courses and grades. All Saved on database csv files.
 
 As the project is a console, all of it's usability is using the keyboard numbers.
 
@@ -213,5 +210,3 @@ My name is Felipe Scherer and you can find me at:
 [github-url]: https://github.com/ofelipescherer
 [java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white
 [java-url]: https://www.java.com
-[mysql]: https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white
-[mysql-url]: https://www.mysql.com
