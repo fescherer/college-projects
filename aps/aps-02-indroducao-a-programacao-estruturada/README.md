@@ -170,6 +170,22 @@ My name is Felipe Scherer and you can find me at:
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/viniGuidi">
+        <img src="https://avatars.githubusercontent.com/viniGuidi" width="100px;"  alt="Vinicius Guidi Picture"/><br>
+        <sub>
+          <b>Vinicius Guidi</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Luxyz">
+        <img src="https://avatars.githubusercontent.com/Luxyz" width="100px;"  alt="Jehan Dias Picture"/><br>
+        <sub>
+          <b>Jehan Dias</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
 
