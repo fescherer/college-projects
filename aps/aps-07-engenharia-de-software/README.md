@@ -9,19 +9,17 @@
     <img src="https://user-images.githubusercontent.com/62115215/218600027-5eda2e8c-b177-437b-86e4-2003c5ef6eef.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">APS 6</h3>
+<h3 align="center">APS 7</h3>
 
 <p align="center">
 
-APS 6 project
+APS 7 project
 
 <br />
 <a href="https://github.com/ofelipescherer/college-projects"><strong>Explore the docs »</strong></a>
 <br />
 <br />
 <a href="#about">About</a>
-•
-<a href="#stack">Build With</a>
 •
 <a href="#install">Getting Started</a>
 •
@@ -47,32 +45,7 @@ APS 6 project
 
 APS is a semester activity requested by my faculty. Each semester there is a subject that is chosen by the grade and we have to do a work/project related to it.
 
-In the sixth semester we focused on Linux plattform, so the APS project- A simulation about food orders.
-
-Objectives of this simulation:
-
-- Virtual machines (“Cashier”, “Server” and “Administrator”) connected in a network;
-- Generate random commands in the “cashier” machine during a pre-selected period at (12h-15h);
-- Make a daily backup of the generated commands and take them to the server at (15h00-15h10);
-- Make a report on the server based on the newly command files transferred at the end of working hours at (15h15);
-- Make a copy of the report file to the administrator machine at (15h20-15h25);
-- To send files between virtual machines a folder will be made shared, where all virtual machines will have access;
-- The cashier machine must not be able to communicate with the administrator machine (Blocked via Firewall);
-- Configure each machine's proxy based on its role;
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- **********************🐲Built With🐲********************** -->
-
-<a name="stack"></a>
-
-## 💻 Built With 💻
-
-<div align="center">
-
-[![Linux][linux]][linux-url]
-
-</div>
+In the seventh semester we were starting the planning of final project- TCC. So there weren't a lot of classes. The chosen one was Software Engineering, as was a more theorical class, the project itself would be theorical too.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,38 +63,10 @@ To get this project up and running locally on your pc, follow the steps:
    ```sh
    git clone https://github.com/ofelipescherer/college-projects.git
    ```
-2. Go the APS 6 files
+2. Go the APS 7 files
    ```sh
-   cd aps/aps-06-sistemas-operacionais/
+   cd aps/aps-07-engenharia-de-software/
    ```
-3. To run this project locally first you will need to install 3 virtual machines or use 3 computers with linux and put the folders in theirs respectives machines.
-
-4. To configure Firewall  
-   Used Technlogy: iptables;  
-   Example to block an ip: `sudo iptables -I <package arrival rule> -s <ip> -j <rule of what to do with the package>`  
-   Example to block a port: `sudo iptables -A <package arrival rule> -p tcp --dport <porta> -j <rule of what to do with the package>`
-
-5. To configure Proxy
-   Used Technlogy: [Squid](http://www.squid-cache.org)  
-   Install Squid: `sudo apt install squid`  
-   Configure: `sudo vim /etc/squid/squid.conf`  
-   Paste this in the configure file:
-
-```
-   include /etc/squid/conf.d/*
-   acl localnet src <YOUR IPV4>
-   acl blocksite dstdomain "/etc/squid/blocksite"
-   http_access deny blocksite
-   http_access allow localnet
-```
-
-Block sites: `sudo vim /etc/squid/keyword_block`
-
-6. To configure routines  
-   Used Technlogy: Crontab  
-   How to configure crontab: `sudo crontab -e`  
-   Paste your line of choice, crotab's sintaxe is the following: `<minute> <hour> <day of month> <month> <day of week> <user> <script location>`  
-   To help find your command, you can use [Crontab Guru](https://crontab.guru/#*_16_1-_*_*)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,15 +76,10 @@ Block sites: `sudo vim /etc/squid/keyword_block`
 
 ## 🙋 How to use 🙋
 
-Project has been made for automation Linux systeam, so there are some bash scripts that can be automated using crontab for example.
-
-![Project](https://user-images.githubusercontent.com/62115215/218895463-8f3e54ea-268f-4c6b-90a5-f118070eb61e.png)
-
-![Project](https://user-images.githubusercontent.com/62115215/218895477-5997cd3a-5579-4df1-83ee-b09ad3ca738d.png)
-
-![Project](https://user-images.githubusercontent.com/62115215/218895481-f9ad1b7a-163f-4286-9bbd-1cc0f1594993.png)
-
-![Project](https://user-images.githubusercontent.com/62115215/218895483-0de5eff9-0f3a-4dce-809b-abc3351e112c.png)
+![Project](https://user-images.githubusercontent.com/62115215/219104336-6162373f-1be2-42ed-9657-d59a55f380cf.png)
+<sub>
+Diagrama de classes
+</sub>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,6 +170,14 @@ My name is Felipe Scherer and you can find me at:
         <img src="https://avatars.githubusercontent.com/kellydena" width="100px;"  alt="Kelly Dena Picture"/><br>
         <sub>
           <b>Kelly Dena</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/danliberato">
+        <img src="https://avatars.githubusercontent.com/danliberato" width="100px;"  alt="Daniel Liberato Picture"/><br>
+        <sub>
+          <b>Daniel Liberato</b>
         </sub>
       </a>
     </td>
