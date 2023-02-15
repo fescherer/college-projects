@@ -120,7 +120,7 @@ If you found a bug or want to request a feature, you can open an [issue](https:/
 
 ## 👋 Be part of this project 👋
 
-Contributions are extremely welcome. You can see how to make one by following the file [Contributing](CONTRIBUTING.md)
+Contributions are extremely welcome. You can see how to make one by following the file [Contributing](/CONTRIBUTING.md)
 
 And don't forget to leave a star on the project if you liked it 🤩
 
@@ -132,7 +132,7 @@ And don't forget to leave a star on the project if you liked it 🤩
 
 ## ⚖️ License ⚖️
 
-Distributed under the MIT License. See [License](LICENSE.md) for more information.
+Distributed under the MIT License. See [License](/LICENSE.md) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

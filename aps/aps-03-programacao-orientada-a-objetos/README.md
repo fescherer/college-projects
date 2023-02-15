@@ -4,10 +4,6 @@
 
 <div align="center">
 
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Forks][forks-shield]][forks-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
   [![MIT License][license-shield]][license-url]
 
   <br />
@@ -55,9 +51,7 @@ APS 1 project
 
 APS is a semester activity requested by my faculty. Each semester there is a subject that is chosen by the grade and we have to do a work/project related to it.
 
-In the first semester, the subject was web development. In it, the basic concepts of web programming were learned, only the basics of HTML, CSS and very little Javascript, so the site is very simple.
-
-The project is an interactive website with information about recycling, but mainly with a focus on ecopoints (Places where you can deposit material for recycling) in Campinas - São Paulo (City where the college is located)
+In the first third, 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,11 +84,11 @@ To get this project up and running locally on your pc, follow the steps:
    ```sh
    git clone https://github.com/ofelipescherer/college-projects.git
    ```
-2. Go the APS 1 files
+2. Go the APS 3 files
    ```sh
-   cd aps/aps-01-desenvolvimento-em-ambiente-web
+   cd aps/aps-03-programacao-orientada-a-objetos/
    ```
-3. Open one of the HTML files in the folder
+3. Open the project on Eclipse or other IDE that has support for Java
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,11 +98,9 @@ To get this project up and running locally on your pc, follow the steps:
 
 ## 🙋 How to use 🙋
 
-
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 ![Project Gif](https://user-images.githubusercontent.com/62115215/218890434-f4b99bba-c6eb-4060-8ec7-da68e8868eba.gif)
-
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -129,7 +121,7 @@ If you found a bug or want to request a feature, you can open an [issue](https:/
 
 ## 👋 Be part of this project 👋
 
-Contributions are extremely welcome. You can see how to make one by following the file [Contributing](CONTRIBUTING.md)
+Contributions are extremely welcome. You can see how to make one by following the file [Contributing](/CONTRIBUTING.md)
 
 And don't forget to leave a star on the project if you liked it 🤩
 
@@ -143,7 +135,7 @@ And don't forget to leave a star on the project if you liked it 🤩
 
 ## ⚖️ License ⚖️
 
-Distributed under the MIT License. See [License](LICENSE.md) for more information.
+Distributed under the MIT License. See [License](/LICENSE.md) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,6 +171,22 @@ My name is Felipe Scherer and you can find me at:
         <img src="https://avatars.githubusercontent.com/u/62115215" width="100px;" alt="Felipe Scherer Picture"/><br>
         <sub>
           <b>Felipe Scherer</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/viniGuidi">
+        <img src="https://avatars.githubusercontent.com/viniGuidi" width="100px;"  alt="Vinicius Guidi Picture"/><br>
+        <sub>
+          <b>Vinicius Guidi</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Luxyz">
+        <img src="https://avatars.githubusercontent.com/Luxyz" width="100px;"  alt="Jehan Dias Picture"/><br>
+        <sub>
+          <b>Jehan Dias</b>
         </sub>
       </a>
     </td>
