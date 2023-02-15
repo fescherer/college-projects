@@ -56,3 +56,12 @@ Basicamente, ela funciona tentando estabelecer um [WebSocket](https://developer.
 A comunicação usada pelo Socket.io funciona dando um ip de broadcast para todos os clientes ou para um conjunto deles(Salas privadas). Em nosso programa, usamos somente salas públicas. Para isso foi usado o seguinte código:  
 ![image](https://user-images.githubusercontent.com/62115215/118284285-a58d3e00-b4a6-11eb-8d1e-8fa164e5ee1e.png)  
 Esse pedaço de código(feito no servidor) irá transmitir para qualquer socket conectado a mensagem que no caso é a *data*.
+
+
+![Project Gif](https://user-images.githubusercontent.com/62115215/218894971-f7b00788-defe-4276-8f1f-02bc74faa5de.png)
+
+![Project Gif](https://user-images.githubusercontent.com/62115215/218894972-be520593-0a74-4303-bc22-c30c92321459.png)
+
+![Project Gif](https://user-images.githubusercontent.com/62115215/218894973-24356c3a-0f85-415c-baef-6799d190d090.png)
+
+![Project Gif](https://user-images.githubusercontent.com/62115215/218894974-55505798-d2e7-40d5-bbef-b8d69461367e.png)

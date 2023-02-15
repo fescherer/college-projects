@@ -48,3 +48,12 @@ To run this project locally first you will need to install 3 virtual machines or
    How to configure crontab: ```sudo crontab -e```  
    Paste your line of choice, crotab's sintaxe is the following: ```<minute> <hour> <day of month> <month> <day of week> <user> <script location>```  
    To help find your command, you can use [Crontab Guru](https://crontab.guru/#*_16_1-_*_*)  
+
+
+![Project Gif](https://user-images.githubusercontent.com/62115215/218895463-8f3e54ea-268f-4c6b-90a5-f118070eb61e.png)
+
+![Project Gif](https://user-images.githubusercontent.com/62115215/218895477-5997cd3a-5579-4df1-83ee-b09ad3ca738d.png)
+
+![Project Gif](https://user-images.githubusercontent.com/62115215/218895481-f9ad1b7a-163f-4286-9bbd-1cc0f1594993.png)
+
+![Project Gif](https://user-images.githubusercontent.com/62115215/218895483-0de5eff9-0f3a-4dce-809b-abc3351e112c.png)
