@@ -110,7 +110,7 @@ Each option can be accessed by numbers. When you select one of the options, it's
 
 ## 🐞 Report Bug / Request Feature 🐞
 
-If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/boilerplate/issues)
+If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/college-projects/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

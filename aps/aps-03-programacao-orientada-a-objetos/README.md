@@ -112,7 +112,7 @@ As the project is a console, all of it's usability is using the keyboard numbers
 
 ## 🐞 Report Bug / Request Feature 🐞
 
-If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/boilerplate/issues)
+If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/college-projects/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

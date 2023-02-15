@@ -119,7 +119,7 @@ App: A guide for how to use a quiz app made with app inventor;
 
 ## 🐞 Report Bug / Request Feature 🐞
 
-If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/boilerplate/issues)
+If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/college-projects/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
