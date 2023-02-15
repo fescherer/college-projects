@@ -4,6 +4,10 @@
 
 <div align="center">
 
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
   [![MIT License][license-shield]][license-url]
 
   <br />
@@ -100,13 +104,9 @@ To get this project up and running locally on your pc, follow the steps:
 
 ## 🙋 How to use 🙋
 
-The project is really simple, you have two screens, one as Pokémon list and other Pokémon detail (popup). The pokémon detail can be accessed by clicking on some pokémon at the list.
 
-One really great thing it's if you hover your mouse on the pokémon card, it will search if has an animated version on Pokémon black/white.
 
-In the pokémon detail, we have it's type, color type as card border and a tab menu with 3 options- stats, evolutions and locations, each tab has it's important data to show.
-
-![Pokémon app Gif](https://user-images.githubusercontent.com/62115215/218336956-a6b3082c-84d3-4583-99a7-bab19d46f809.gif)
+![Project Gif](https://user-images.githubusercontent.com/62115215/218890434-f4b99bba-c6eb-4060-8ec7-da68e8868eba.gif)
 
 
 

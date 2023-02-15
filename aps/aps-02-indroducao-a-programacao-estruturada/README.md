@@ -1,11 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+ 
 [![MIT License][license-shield]][license-url]
 
   <br />
@@ -65,8 +61,7 @@ The project have to be made in Python and was a project to show Ecopoints of Cam
 
 <div align="center">
 
-[![HTML 5][html 5]][html-url]
-[![CSS 3][css 3]][css-url]
+[![Python][Python]][python-url]
 
 </div>
 
@@ -199,7 +194,6 @@ My name is Felipe Scherer and you can find me at:
 [youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
 [github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
 [github-url]: https://github.com/ofelipescherer
-[html 5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
-[css 3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-[css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+[Python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://www.python.org

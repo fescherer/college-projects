@@ -1,4 +1,8 @@
 # 4S-ALPOO
+![Project Gif](https://user-images.githubusercontent.com/62115215/218890436-6570d175-62b3-4cb7-954c-0bec17a653c1.png)
+![Project Gif](https://user-images.githubusercontent.com/62115215/218890438-819cf6c7-f448-4c4d-80ed-4cfe716d1376.png)
+![Project Gif](https://user-images.githubusercontent.com/62115215/218890440-3e16b71c-908c-4bae-8768-3ed842065a23.png)
+
 
 ###### [ENGLISH]
 This is a project made to manage a bookstore. You can delete, change, add and search for authors, books and publishers. There is a connection with MySQL database.  
