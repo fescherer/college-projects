@@ -49,7 +49,9 @@ APS is a semester activity requested by my faculty. Each semester there is a sub
 
 In the first semester, the subject was web development. In it, the basic concepts of web programming were learned, only the basics of HTML, CSS and very little Javascript, so the site is very simple.
 
-The project is an interactive website with information about recycling, but mainly with a focus on ecopoints (Places where you can deposit material for recycling) in Campinas - São Paulo (City where the college is located)
+The project is an interactive website with information about recycling, but mainly with a focus on ecopoints (Places where you can deposit material for recycling) in Campinas - São Paulo (City where the college is located).
+
+Also, in this semester we made an app with the same subject- recycling. The app is made in app inventor and the apk can be downloaded in site APP tab on the site.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,11 +98,16 @@ To get this project up and running locally on your pc, follow the steps:
 
 ## 🙋 How to use 🙋
 
-The project is really simple, you have two screens, one as Pokémon list and other Pokémon detail (popup). The pokémon detail can be accessed by clicking on some pokémon at the list.
+The site is a very simple site with 6 tabs.
 
-One really great thing it's if you hover your mouse on the pokémon card, it will search if has an animated version on Pokémon black/white.
+There is a tab for Home,
 
-In the pokémon detail, we have it's type, color type as card border and a tab menu with 3 options- stats, evolutions and locations, each tab has it's important data to show.
+News: A tab with mocked news;
+Colors: A guide for each recycle color;
+Ecopoints: A list of Ecopoints in Campinas-SP;
+RRR: An article about the three R;
+Complaints: A mocked form for later support of complaints about recycling;
+App: A guide for how to use a quiz app made with app inventor;
 
 ![Pokémon app Gif](https://user-images.githubusercontent.com/62115215/218336956-a6b3082c-84d3-4583-99a7-bab19d46f809.gif)
 

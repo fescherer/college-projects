@@ -9,11 +9,11 @@
     <img src="https://user-images.githubusercontent.com/62115215/218600027-5eda2e8c-b177-437b-86e4-2003c5ef6eef.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">APS 1</h3>
+<h3 align="center">APS 3</h3>
 
 <p align="center">
 
-APS 1 project
+APS 3 project
 
 <br />
 <a href="https://github.com/ofelipescherer/college-projects"><strong>Explore the docs »</strong></a>
@@ -47,7 +47,7 @@ APS 1 project
 
 APS is a semester activity requested by my faculty. Each semester there is a subject that is chosen by the grade and we have to do a work/project related to it.
 
-In the first third,
+In the third semester the subject chosen for APS was object oriented programming. Our focus was on Java programming language, which we utilized to develop the college management application solely on the console.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,8 +59,8 @@ In the first third,
 
 <div align="center">
 
-[![HTML 5][html 5]][html-url]
-[![CSS 3][css 3]][css-url]
+[![Java][java]][java-url]
+[![MySQL][mysql]][mysql-url]
 
 </div>
 
@@ -86,6 +86,8 @@ To get this project up and running locally on your pc, follow the steps:
    ```
 3. Open the project on Eclipse or other IDE that has support for Java
 
+4. If you want to run the database, you need to install mySQL too. We used WAMP, but you can use other tecnology to open the database.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- **********************🐲How to use🐲********************** -->
@@ -94,7 +96,11 @@ To get this project up and running locally on your pc, follow the steps:
 
 ## 🙋 How to use 🙋
 
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+The project is a college managment application. In it you can register a student, a course and a grade.
+
+You can also verify the already registered students, courses and grades. All Saved on database.
+
+As the project is a console, all of it's usability is using the keyboard numbers.
 
 ![Project Gif](https://user-images.githubusercontent.com/62115215/218890434-f4b99bba-c6eb-4060-8ec7-da68e8868eba.gif)
 
@@ -188,7 +194,6 @@ My name is Felipe Scherer and you can find me at:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/college-projects.svg?style=for-the-badge
 [contributors-url]: https://github.com/ofelipescherer/college-projects/graphs/contributors
@@ -206,7 +211,7 @@ My name is Felipe Scherer and you can find me at:
 [youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
 [github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
 [github-url]: https://github.com/ofelipescherer
-[html 5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
-[css 3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-[css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[java]: https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white
+[java-url]: https://www.java.com
+[mysql]: https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white
+[mysql-url]: https://www.mysql.com
