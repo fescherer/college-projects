@@ -47,7 +47,7 @@ APS 8 project
 
 APS is a semester activity requested by my faculty. Each semester there is a subject that is chosen by the grade and we have to do a work/project related to it.
 
-In the eighth semester
+In the eighth semester was the last semester in college, so there were even less classes. But the class chosen was distributed systems and the project objetive was create an system with full redundancy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,6 +93,8 @@ To get this project up and running locally on your pc, follow the steps:
 <a name="usage"></a>
 
 ## 🙋 How to use 🙋
+
+We used HaProxy as Load Balancer, docker to run the system and K6 to test the API made with FastAPI
 
 ![Project Image](https://user-images.githubusercontent.com/62115215/218896385-40b4fcfc-5e6c-4cf4-9672-d56a970b047c.png)
 
