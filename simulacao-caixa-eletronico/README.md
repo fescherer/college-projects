@@ -1,93 +1,181 @@
-# Simulacao-Caixa-Eletronico
+<a name="readme-top"></a>
 
-Esse é um projeto feito para a aula de Estrutura de Dados na Unip
+<div align="center">
 
-Projeto feito por Felipe Scherer
+[![MIT License][license-shield]][license-url]
 
-É simulado uma situação onde deve existir caixa eletrônicos e clientes (aleatórios) devem usar eles.
-Caso tenha mais que 3 clientes (quantidade de caixas eletrônicos) os próximos deverão ser guardados em uma fila.
-No final, o objetivo é calcular quanto tempo médio os clientes ficaram na fila
+  <br />
+  <a href="https://github.com/ofelipescherer/college-projects">
+    <img src="https://user-images.githubusercontent.com/62115215/218600027-5eda2e8c-b177-437b-86e4-2003c5ef6eef.png" alt="Logo" width="80" height="80">
+  </a>
 
-### Enunciado
-Aplicação de Filas: Simulando a fila de um caixa eletrônico
+<h3 align="center">Simulação Caixa Eletrônico</h3>
 
-  Pretende-se simular uma situação que nos permita determinar qual o tempo médio que um
-cliente aguarda numa fila, para realizar uma transação no caixa eletrônico de uma agencia
-bancária.
-  O caixa eletrônico oferece cinco opções ao cliente e, através de estatísticas, chegamos ao tempo
-médio necessário para realizar cada uma das transações possíveis:
-| Transação | Código | Tempo (s) |
-| ------ | ------ | ------ |
-| Saldo | 0 | 10 |
-| Saque | 1 | 20 |
-| Aplicação | 2 | 30 | 
-| Extrato Semanal | 3 | 40 |
-| Extrato Mensal | 4 | 50 |
+<p align="center">
 
-  Sabe-se que a agência tem três caixas eletrônicos que atendem a uma única fila de clientes. À
-medida que qualquer um dos caixas fica livre, o primeiro cliente da fila o utiliza.
-  Quando um cliente entra na fila, o horário é anotado. Quando ele sai, verifica-se quanto tempo
-ele aguardou e este valor é acumulado. Também o total de clientes é registrado, de modo que
-no final do expediente, seja possível determinar o tempo médio que um cliente permanece na
-fila para utilizar o caixa.
+Simulação Caixa Eletrônico Project
 
-  Duas entidades concretas estão envolvidas nesse problema: caixas e clientes. Vamos abstrair
-destas entidades apenas os atributos essenciais para a resolução do problema, objetivando uma
-implementação simples e funcional.
+<br />
+<a href="https://github.com/ofelipescherer/college-projects"><strong>Explore the docs »</strong></a>
+<br />
+<br />
+<a href="#about">About</a>
+•
+<a href="#stack">Build With</a>
+•
+<a href="#install">Getting Started</a>
+•
+<a href="#usage">How to use</a>
+•
+<a href="#issue">Report Bug / Request Feature</a>
+•
+<a href="#contributing">Contributing</a>
+•
+<a href="#contributors">Contributors</a>
+•
+<a href="#license">License</a>
+•
+<a href="#contact">Contact me</a>
+</p>
+</div>
 
-  Tudo o que precisamos saber sobre um caixa é se ele está ocupado ou não. Caso esteja,
-precisamos ter uma “noção” de por quanto tempo ele ainda será usado pelo cliente. Assim, cada
-caixa será representado por uma variável inteira, cujo valor indica por quantos minutos ele
-permanecerá ocupado. Se o valor dessa variável for 0, então o caixa está livre. Inicialmente,
-todos os caixas estão livres. Quando um cliente inicia uma transação num caixa, o tempo
-necessário para realizar a transação escolhido por ele é que determinará quanto tempo o caixa
-permanecerá ocupado.
+<!-- **********************🐲About🐲********************** -->
 
-  A outra entidade que precisamos representar é o cliente. Dele só nos interessa o momento em
-que ele entrou na fila para que, ao sair, possamos calcular quanto tempo ele aguardou. Portanto,
-cada cliente será representado por um número inteiro correspondente ao horário em que ele
-entrou na fila.
+<a name="about"></a>
 
-Na nossa simulação, dois eventos que podem ocorrer são de interesse particular:
-1. Um cliente chega na agência e entra na fila;
-2. Um caixa é liberado, alguém sai da fila e o utiliza.
+## <Emoji project> About <Emoji project>
 
-  Para sincronizar estes eventos, vamos assumir que temos um cronômetro que marca unidade
-de tempo. Durante uma unidade de tempo, que poderia ser um segundo, qualquer combinação
-dos eventos pode ocorrer, até mesmo nenhuma.
+A situation is simulated where there must be ATMs and (random) customers must use them.
+If you have more than 3 customers (number of ATMs) the next ones should be kept in a queue.
+In the end, the goal is to calculate how long the customers spent in the queue on average.
 
-Para simular a dinâmica com que os eventos ocorrem, procedemos como segue:
+You can find the problem description [here](ENUNCIADO.md)
 
-1. Zerar o cronômetro
-2. Enquanto não terminar o expediente:
-  - Se um cliente chegou, então entra na fila;
-  - Se fila não está vazia e um caixa está livre, então cliente inicia transação;
-  - Para cada caixa ocupado, decrementar o seu tempo de uso;
-  - Incrementar o cronômetro.
-  
-  Alguns pontos do algoritmo acima devem ser detalhados para que possamos programa-los:
-Terminou o expediente?
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-  Para determinar o final do expediente, usamos o próprio cronômetro. Para isto, basta definir o
-período de atendimento da agência em termos das unidades de tempo marcadas pelo
-cronômetro. Quando o cronômetro atingir o valor definido, então terminou o expediente.
-  
-  Chegou um cliente?
-  
-  Numa situação real, não teremos cliente chegando à agência a cada minuto para usar o caixa
-eletrônico. Para implementar esta parte do algoritmo, de modo que tenhamos algo não
-sistemático, podemos utilizar uma função que a cada chamada retorne um valor aleatório.
-Cliente entra na fila.
+<!-- **********************🐲Built With🐲********************** -->
 
-  Convencionamos representar um cliente apenas pelo horário em que ele entrou na fila. O tempo
-está sendo controlado pelo cronômetro. Logo, colocar um cliente na fila equivale a
-simplesmente armazenar nela o valor corrente do cronômetro, no momento que ele chega.
-Inicia transação.
-  
-  Quando um caixa é liberado e um cliente começa a utilizá-lo, precisamos saber por quanto
-tempo ele estará ocupado. O tempo de uso do caixa depende da transação que é iniciada pelo
-cliente. Aqui também é interessante que as transações iniciadas sejam aleatórias.
+<a name="stack"></a>
 
-Bibliografia:
-Pereira, S. L. Estruturas de dados fundamentais: conceitos e aplicações. São Paulo, Editora Érica.
-8a edição, 2004.
+## 💻 Built With 💻
+
+<div align="center">
+
+[![Python][python]][python-url]
+
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲Getting Started🐲********************** -->
+
+<a name="install"></a>
+
+## 🚂 Getting Started 🚂
+
+To get this project up and running locally on your pc, follow the steps:
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ofelipescherer/college-projects.git
+   ```
+2. Go the Simulação caixa eletrônico folder
+   ```sh
+   cd simulacao-caixa-eletronico
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲Report Bug / Request Feature🐲********************** -->
+
+<a name="issue"></a>
+
+## 🐞 Report Bug / Request Feature 🐞
+
+If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/college-projects/issues)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲Be part of this project🐲********************** -->
+
+<a name="contributing"></a>
+
+## 👋 Be part of this project 👋
+
+Contributions are extremely welcome. You can see how to make one by following the file [Contributing](/CONTRIBUTING.md)
+
+And don't forget to leave a star on the project if you liked it 🤩
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲License🐲********************** -->
+
+<a name="license"></a>
+
+## ⚖️ License ⚖️
+
+Distributed under the MIT License. See [License](/LICENSE.md) for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲Contact Me🐲********************** -->
+
+<a name="contact"></a>
+
+## 💬 Contact me 💬
+
+My name is Felipe Scherer and you can find me at:
+
+<div align="center">
+
+[![Youtube][youtube-shield]][youtube-url]
+[![Linkedin][linkedin-shield]][linkedin-url]
+[![Github][github-shield]][github-url]
+
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- **********************🐲Contributors🐲********************** -->
+
+<a name="contributors"></a>
+
+## 🤗 Contributors 🤗
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/ofelipescherer">
+        <img src="https://avatars.githubusercontent.com/u/62115215" width="100px;" alt="Felipe Scherer Picture"/><br>
+        <sub>
+          <b>Felipe Scherer</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/ofelipescherer/college-projects.svg?style=for-the-badge
+[contributors-url]: https://github.com/ofelipescherer/college-projects/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ofelipescherer/college-projects.svg?style=for-the-badge
+[forks-url]: https://github.com/ofelipescherer/college-projects/network/members
+[stars-shield]: https://img.shields.io/github/stars/ofelipescherer/college-projects.svg?style=for-the-badge
+[stars-url]: https://github.com/ofelipescherer/college-projects/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ofelipescherer/college-projects.svg?style=for-the-badge
+[issues-url]: https://github.com/ofelipescherer/college-projects/issues
+[license-shield]: https://img.shields.io/github/license/ofelipescherer/college-projects.svg?style=for-the-badge
+[license-url]: https://github.com/ofelipescherer/college-projects/blob/master/LICENSE.md
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
+[linkedin-url]: https://www.linkedin.com/in/ofelipescherer
+[youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
+[youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
+[github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
+[github-url]: https://github.com/ofelipescherer
+[python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+[python-url]: https://www.python.org

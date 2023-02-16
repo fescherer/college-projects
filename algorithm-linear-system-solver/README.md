@@ -9,11 +9,11 @@
     <img src="https://user-images.githubusercontent.com/62115215/218600027-5eda2e8c-b177-437b-86e4-2003c5ef6eef.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">APS 2</h3>
+<h3 align="center">Linear System Solver</h3>
 
 <p align="center">
 
-APS 2 project
+Linear System Solver Project
 
 <br />
 <a href="https://github.com/ofelipescherer/college-projects"><strong>Explore the docs »</strong></a>
@@ -45,11 +45,7 @@ APS 2 project
 
 ## <Emoji project> About <Emoji project>
 
-APS is a semester activity requested by my faculty. Each semester there is a subject that is chosen by the grade and we have to do a work/project related to it.
-
-In the second semester, the subject was structured programming. In it, the basic concepts of programming were learned, only the basics of variables, objects, functions and conditionals.
-
-The project have to be made in Python and was a project to show Ecopoints of Campinas São Paulo, given a latitude and a longitude, the program need to give the closest Ecopoint of that location.
+Linear System Solver
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,26 +77,10 @@ To get this project up and running locally on your pc, follow the steps:
    ```sh
    git clone https://github.com/ofelipescherer/college-projects.git
    ```
-2. Go the APS 2 files
+2. Go the Linear System Solver
    ```sh
-   cd aps/aps-02-indroducao-a-programacao-estruturada/
+   cd algorithm-linear-system-solver
    ```
-3. Open the exe file or the .py file
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- **********************🐲How to use🐲********************** -->
-
-<a name="usage"></a>
-
-## 🙋 How to use 🙋
-
-The project is really simple, you have a terminal UI, which has options to search for a Ecopoint that recycles 'plastic', 'paper', 'glass' and 'metal', you also have the options to manage the registered Ecopoints- 'add', 'remove' and 'list'.
-
-Each option can be accessed by numbers. When you select one of the options, it's most likely that you also need to give a latitude and a longitude. As this project was made for Campinas city, the possible latitudes and longitudes availables are from that city.
-
-![Overview project](https://user-images.githubusercontent.com/62115215/218788137-d8993bd7-2f64-4b83-87c7-c7d84612cdb8.png)
-![Gif of the project](https://user-images.githubusercontent.com/62115215/218791504-7e8a3e5d-ad86-40f0-ae2b-780a972c40bf.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,22 +147,6 @@ My name is Felipe Scherer and you can find me at:
         <img src="https://avatars.githubusercontent.com/u/62115215" width="100px;" alt="Felipe Scherer Picture"/><br>
         <sub>
           <b>Felipe Scherer</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/viniGuidi">
-        <img src="https://avatars.githubusercontent.com/viniGuidi" width="100px;"  alt="Vinicius Guidi Picture"/><br>
-        <sub>
-          <b>Vinicius Guidi</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Luxyz">
-        <img src="https://avatars.githubusercontent.com/Luxyz" width="100px;"  alt="Jehan Dias Picture"/><br>
-        <sub>
-          <b>Jehan Dias</b>
         </sub>
       </a>
     </td>

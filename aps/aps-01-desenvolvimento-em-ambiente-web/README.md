@@ -109,7 +109,15 @@ RRR: An article about the three R;
 Complaints: A mocked form for later support of complaints about recycling;
 App: A guide for how to use a quiz app made with app inventor;
 
-![Pokémon app Gif](https://user-images.githubusercontent.com/62115215/218336956-a6b3082c-84d3-4583-99a7-bab19d46f809.gif)
+![Project Gif](https://user-images.githubusercontent.com/62115215/219414481-5e742828-8b76-45ef-8d0a-f98fdfba2aa1.gif)
+
+![Project Home](https://user-images.githubusercontent.com/62115215/219412486-cc05d257-6e7a-4c3f-b0c7-9ea58169fbeb.png)
+![Project News](https://user-images.githubusercontent.com/62115215/219412526-7d154ee9-a50a-42cc-bc03-d4a1ed9bb78c.png)
+![Project RRR](https://user-images.githubusercontent.com/62115215/219412571-adeed80b-7312-42d7-8168-c9fedda435c3.png)
+![Project Colors](https://user-images.githubusercontent.com/62115215/219412604-9b51845a-e2ff-47ab-b455-6e5385436bb9.png)
+![Project Ecopoints](https://user-images.githubusercontent.com/62115215/219412638-af593bc1-0bd8-41e2-b9d6-012aee99146d.png)
+![Project Denuncias](https://user-images.githubusercontent.com/62115215/219412678-a7654024-8cef-41e2-a0cd-011ab7daa3a3.png)
+![Project App](https://user-images.githubusercontent.com/62115215/219412706-125e60de-96f6-4af6-8afb-de8ad085b0ff.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
