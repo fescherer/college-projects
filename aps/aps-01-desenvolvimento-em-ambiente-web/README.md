@@ -43,7 +43,7 @@ APS 1 project
 
 <a name="about"></a>
 
-## <Emoji project> About <Emoji project>
+## 🌳 About 🌳
 
 APS is a semester activity requested by my faculty. Each semester there is a subject that is chosen by the grade and we have to do a work/project related to it.
 

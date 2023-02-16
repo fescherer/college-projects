@@ -43,7 +43,7 @@ Linear System Solver Project
 
 <a name="about"></a>
 
-## <Emoji project> About <Emoji project>
+## ➗ About ➗
 
 Linear System Solver
 

@@ -25,8 +25,6 @@ Lights Out Project
 •
 <a href="#install">Getting Started</a>
 •
-<a href="#usage">How to use</a>
-•
 <a href="#issue">Report Bug / Request Feature</a>
 •
 <a href="#contributing">Contributing</a>
@@ -43,7 +41,7 @@ Lights Out Project
 
 <a name="about"></a>
 
-## <Emoji project> About <Emoji project>
+## 📘 About 📘
 
 These are the exercises done in object-oriented programming language application classes. Feel free to use the code as much as you like.
 
@@ -67,7 +65,7 @@ These are the exercises done in object-oriented programming language application
 
 <a name="install"></a>
 
-## 🚂 Getting Started 🚂
+## ☕ Getting Started ☕
 
 To get this project up and running locally on your pc, follow the steps:
 

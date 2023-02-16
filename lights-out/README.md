@@ -43,7 +43,7 @@ Lights Out Project
 
 <a name="about"></a>
 
-## <Emoji project> About <Emoji project>
+## 💡 About 💡
 
 [Lights Out](<https://en.wikipedia.org/wiki/Lights_Out_(game)>) is a puzzle from which you need to turn off all the lights, which can be arranged as a rectangular matrix. Each time you click on a matrix tile, it changes the state between on and off. This logic also applies to adjacent tiles. The object of the game is to turn off all the lights.
 

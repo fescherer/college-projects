@@ -1,46 +1,3 @@
-# IMPORTANTE!!!!
-
-## Projeto
-
-- Para que serve nosso projeto;
-- Porque ele é diferente dos concorentes;
-- Como o projeto está estruturado;
-- Porque guardar todas as palavras em arquivo de constante ao invés de por direto no código;
-- Porque guardar dados em localstorage ao invés de cookies, sessionstorage ou cachestorage;
-- Como é feito o dark Mode;
-- Como é feita a Rota no projeto;
-
-## Programação
-
-- O que são variáveis de ambiente e para que servem;
-- O que são bibliotecas e frameworks;
-- Para que usar um framework ao invés do javascript, CSS e HTML vanila?
-
-## Conceitos em React
-
-- Vantagens do React em relação a outros frameworks;
-- O que é uma SPA; Single Page Application
-- O que são compontes;
-- O que são children;
-- O que é um ciclo de vida;
-- O que são hooks;
-- O que é o useState, useEffect;
-- O que é context;
-- Diferença React funcional e React em classe;
-
-## Design
-
-- Para que serve fazer a prototipação;
-- O que é o Figma;
-- O que é SASS;
-- O que é Material UI e Material Design;
-
-## Firebase
-
-- O que é Firebase;
-- Como é feito o login? - SSO: Single Sign-On
-- Como é guardado os dados;
-
 <a name="readme-top"></a>
 
 <div align="center">
@@ -86,9 +43,19 @@ TCC project
 
 <a name="about"></a>
 
-## 💬 About 💬
+## 🎥 About 🎥
 
-DESCRIPTION -- colocar em como rodar o projeto, a criação do firebase
+TCC is the last graduation project done in Brazil. It is usually a project that lasts a year, where the first semester is used to choose the theme and plan. The second is the actual creation of the project.
+
+The work is a scientific research. In the Computer Science course, it was necessary to do it along the lines of an academic article, because all the articles in the class would be gathered in a magazine and published by the coordinator.
+
+The theme chosen by us was to solve the problems of remembering movies, series and other media with an application that is easy and quick to use, that is, it would be something used right after leaving the cinema, or right after finishing using that medium, thus, the user will be able to place a note, without receiving external factors such as influence from friends, or reviews from critics.
+
+Thus, our focus was on creating a card (Save a movie/series) as quickly as possible, we managed to create it in 5 clicks. We decided to leave it that way, because if would have less data, the final listing of that cards, would be ugly and poor of data.
+
+The development of the work was complicated, as it was difficult to find a theme that was accepted by everyone in the group and that could be done in a timely manner. But in the end everything worked out and the project was accepted by the bank.
+
+As this is a survey, I will leave it saved in the repository in the file [PESQUISA.pdf](), as the faculty is assigned in Brazil, it is in Portuguese, but feel free to contact any of the members of the group: )
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,6 +101,10 @@ To get this project up and running locally on your pc, follow the steps:
    npm install
    npm start
    ```
+4. This project uses Firebase as database, so I cannot pass my firebase credentials. If you want to run locally you need to provide your own credentials. For this:
+   4.1. Create a google account;
+   4.2. Login at [firebase site](https://firebase.google.com);
+   4.3. Create a project and get your SDK credentials;
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,6 +113,10 @@ To get this project up and running locally on your pc, follow the steps:
 <a name="usage"></a>
 
 ## 🙋 How to use 🙋
+
+Our project is all related to user customization. You can save movies or series in a very simple way. After that you can edit and add more information.
+
+The movie will stay there, but when you create, you have to give an emoji, that will be used to sort movies after. So if you want to sort a movie based on that category, you can simple do this by filtering using that emoji.
 
 ![Project Login](https://user-images.githubusercontent.com/62115215/219413319-ab355226-6384-417b-9634-9622cd3deac6.png)
 ![Project Home](https://user-images.githubusercontent.com/62115215/219413668-6622c23e-2409-4e05-8448-92f2d40f3c02.png)

@@ -43,7 +43,7 @@ Database classes projects
 
 <a name="about"></a>
 
-## <Emoji project> About <Emoji project>
+## 📚 About 📚
 
 These are the exercises done in database language classes. Feel free to use the code as much as you like. They were made in MySQL Language and are in portuguese.
 

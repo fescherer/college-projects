@@ -43,7 +43,7 @@ Ellipse Transform Project
 
 <a name="about"></a>
 
-## <Emoji project> About <Emoji project>
+## 🟣 About 🟣
 
 Computer graphics is an area related a lot, and I mean A LOT with geometry. Because of that, many concepts can be found in both of the subjects.
 

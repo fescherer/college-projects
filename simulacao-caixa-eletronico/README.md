@@ -25,8 +25,6 @@ Simulação Caixa Eletrônico Project
 •
 <a href="#install">Getting Started</a>
 •
-<a href="#usage">How to use</a>
-•
 <a href="#issue">Report Bug / Request Feature</a>
 •
 <a href="#contributing">Contributing</a>
@@ -43,7 +41,7 @@ Simulação Caixa Eletrônico Project
 
 <a name="about"></a>
 
-## <Emoji project> About <Emoji project>
+## 🏦 About 🏦
 
 A situation is simulated where there must be ATMs and (random) customers must use them.
 If you have more than 3 customers (number of ATMs) the next ones should be kept in a queue.

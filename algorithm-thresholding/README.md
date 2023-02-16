@@ -43,7 +43,7 @@ Thresholding Image Editor Project
 
 <a name="about"></a>
 
-## <Emoji project> About <Emoji project>
+## ◽ About ◽
 
 Thresholding is a way to make binnary images.
 

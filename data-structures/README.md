@@ -43,7 +43,7 @@ Data Structures Classes Project
 
 <a name="about"></a>
 
-## <Emoji project> About <Emoji project>
+## 📚 About 📚
 
 This is a repository of Data Structure classes. In it you can find my developed algorithms. You are free to use them however you like.
 
