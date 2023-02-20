@@ -27,15 +27,11 @@ APS 4 project
 •
 <a href="#usage">How to use</a>
 •
-<a href="#issue">Report Bug / Request Feature</a>
-•
-<a href="#contributing">Contributing</a>
-•
-<a href="#contributors">Contributors</a>
-•
-<a href="#license">License</a>
+<a href="#info">Info</a>
 •
 <a href="#contact">Contact me</a>
+•
+<a href="#contributors">Contributors</a>
 </p>
 </div>
 
@@ -141,55 +137,21 @@ As a managment app, you can edit, delete and add new publishers, books or author
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- **********************🐲Report Bug / Request Feature🐲********************** -->
+<!-- **********************🐲Info🐲********************** -->
 
-<a name="issue"></a>
+<a name="info"></a>
 
-## 🐞 Report Bug / Request Feature 🐞
+## :information_source: Info :information_source:
 
-If you found a bug or want to request a feature, you can open an [issue](https://github.com/ofelipescherer/college-projects/issues)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- **********************🐲Be part of this project🐲********************** -->
-
-<a name="contributing"></a>
-
-## 👋 Be part of this project 👋
-
-Contributions are extremely welcome. You can see how to make one by following the file [Contributing](/CONTRIBUTING.md)
-
-And don't forget to leave a star on the project if you liked it 🤩
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- **********************🐲License🐲********************** -->
-
-<a name="license"></a>
-
-## ⚖️ License ⚖️
-
-Distributed under the MIT License. See [License](/LICENSE.md) for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- **********************🐲Contact Me🐲********************** -->
-
-<a name="contact"></a>
-
-## 💬 Contact me 💬
-
-My name is Felipe Scherer and you can find me at:
+Don't forget to leave a star if you like the project ✨
 
 <div align="center">
 
-[![Youtube][youtube-shield]][youtube-url]
-[![Linkedin][linkedin-shield]][linkedin-url]
-[![Github][github-shield]][github-url]
+[![MIT License][license-shield]][license-url]
+[![How to contribute][info-contribute-shield]][info-contribute-url]
+[![Create an issue][info-issues-shield]][info-issues-url]
 
 </div>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- **********************🐲Contributors🐲********************** -->
 
@@ -250,3 +212,7 @@ My name is Felipe Scherer and you can find me at:
 [java-url]: https://www.java.com
 [mysql]: https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white
 [mysql-url]: https://www.mysql.com
+[info-contribute-shield]: https://img.shields.io/badge/👋-How%20to%20contribute-blue.svg?style=for-the-badge
+[info-contribute-url]: https://github.com/ofelipescherer/utils/blob/main/CONTRIBUTING.md
+[info-issues-shield]: https://img.shields.io/badge/🐞-How%20to%20create%20an%20issue-blue.svg?style=for-the-badge
+[info-issues-url]: https://github.com/ofelipescherer/utils/blob/main/ISSUE.md
