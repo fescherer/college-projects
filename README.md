@@ -8,12 +8,12 @@
   <a href="https://github.com/ofelipescherer/college-projects">
     <img src="https://user-images.githubusercontent.com/62115215/218600027-5eda2e8c-b177-437b-86e4-2003c5ef6eef.png" alt="Logo" width="80" height="80">
   </a>
-
+  
 <h3 align="center">College Projects</h3>
 
 <p align="center">
 
-College project
+College projects
 
 <br />
 <a href="https://github.com/ofelipescherer/college-projects"><strong>Explore the docs »</strong></a>
