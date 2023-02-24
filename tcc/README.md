@@ -51,7 +51,7 @@ Thus, our focus was on creating a card (Save a movie/series) as quickly as possi
 
 The development of the work was complicated, as it was difficult to find a theme that was accepted by everyone in the group and that could be done in a timely manner. But in the end everything worked out and the project was accepted by the bank.
 
-As this is a survey, I will leave it saved in the repository in the file [PESQUISA.pdf](), as the faculty is assigned in Brazil, it is in Portuguese, but feel free to contact any of the members of the group: )
+As this is a survey, I will leave it saved in the repository in the file [PESQUISA.pdf](), as the college is assigned in Brazil, it is in Portuguese, but feel free to contact any of the members of the group: )
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
