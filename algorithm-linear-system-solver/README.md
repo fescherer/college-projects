@@ -80,6 +80,24 @@ To get this project up and running locally on your pc, follow the steps:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- **********************🐲Getting Started🐲********************** -->
+
+<a name="usage"></a>
+
+## 🙋 How to use 🙋
+
+![Code](https://user-images.githubusercontent.com/62115215/236688806-fc46c4ba-bc63-4df6-9139-d84a74caafe5.png)
+
+![example 1](https://user-images.githubusercontent.com/62115215/236688819-59a74aaa-616d-46c4-b3ec-f0f80bc69b1f.png)
+
+![example 2](https://user-images.githubusercontent.com/62115215/236689312-332542be-3b0b-4df6-95e3-3b14882d36ed.png)
+
+![example 3](https://user-images.githubusercontent.com/62115215/236689321-20fe8485-5db2-4e85-a527-769bb57e9e5f.png)
+
+![example 4](https://user-images.githubusercontent.com/62115215/236689338-20c081ed-e244-44b6-af9e-43bef5bcd90d.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- **********************🐲Info🐲********************** -->
 
 <a name="info"></a>
