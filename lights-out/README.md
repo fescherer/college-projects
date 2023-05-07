@@ -46,6 +46,10 @@ Lights Out Project
 In this repository you will find an artificial inteligence to solve the Lights Out Puzzle.
 We use matrices 3x3 and 4x4 because greater than this will cost a lot of processing. The program was made in Java language and the concept of [State Space](https://en.wikipedia.org/wiki/State_space) was used.
 
+![Simple example](https://user-images.githubusercontent.com/62115215/236691169-b3374c02-2a7d-462a-8da5-32a39e30888d.png)
+
+![Complex example](https://user-images.githubusercontent.com/62115215/236691199-70483455-154b-4f33-a86d-cdba7ee7fcea.png)
+
 ![Screenshot_2](https://user-images.githubusercontent.com/62115215/111791518-0aab2580-88a2-11eb-8e4d-d707b18a247c.png)
 
 ![Screenshot_1](https://user-images.githubusercontent.com/62115215/111791516-0a128f00-88a2-11eb-9a3a-a1c03833acc8.png)
