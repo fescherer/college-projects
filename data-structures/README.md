@@ -91,6 +91,24 @@ To get this project up and running locally on your pc, follow the steps:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- **********************🐲How to use🐲********************** -->
+
+<a name="usage"></a>
+
+## 🙋 How to use 🙋
+
+![image](https://user-images.githubusercontent.com/62115215/236707089-07613362-928d-4530-82cb-01e16f5c95a4.png)
+
+![image](https://user-images.githubusercontent.com/62115215/236707148-d97aa16b-4fbe-4c80-8faf-9d4b8689b051.png)
+
+![image](https://user-images.githubusercontent.com/62115215/236707168-d1b21501-2379-4be6-8e8b-266039c5eb89.png)
+
+![image](https://user-images.githubusercontent.com/62115215/236707189-026d96f0-1143-471d-a2af-be6689257ac0.png)
+
+![image](https://user-images.githubusercontent.com/62115215/236707211-5d6b9b62-6692-40c8-9a5b-2a4ff350355d.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- **********************🐲Info🐲********************** -->
 
 <a name="info"></a>
