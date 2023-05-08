@@ -114,6 +114,7 @@ Our project is all related to user customization. You can save movies or series 
 
 The movie will stay there, but when you create, you have to give an emoji, that will be used to sort movies after. So if you want to sort a movie based on that category, you can simple do this by filtering using that emoji.
 
+![Gif](https://user-images.githubusercontent.com/62115215/236708279-1c7b78a9-a44c-4172-b2ae-22f9b885b2be.gif)
 ![Project Login](https://user-images.githubusercontent.com/62115215/219413319-ab355226-6384-417b-9634-9622cd3deac6.png)
 ![Project Home](https://user-images.githubusercontent.com/62115215/219413668-6622c23e-2409-4e05-8448-92f2d40f3c02.png)
 ![Project Card recent saved](https://user-images.githubusercontent.com/62115215/219413812-1b4c3752-26a6-4594-8e02-01a955c9dbb3.png)
