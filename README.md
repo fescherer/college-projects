@@ -23,9 +23,11 @@ College projects
 •
 <a href="#install">Getting Started</a>
 •
-<a href="#info">Info</a>
+<a href="#issue">Report Bug / Request Feature</a>
 •
-<a href="#contact">Contact me</a>
+<a href="#contributing">Contributing</a>
+•
+<a href="#license">License</a>
 •
 <a href="#contributors">Contributors</a>
 </p>
@@ -58,23 +60,37 @@ To get this project up and running locally on your pc, follow the steps:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- **********************🐲Info🐲********************** -->
+<!-- **********************🐲Report Bug 🐲********************** -->
+<a name="issue"></a>
 
-<a name="info"></a>
+## 🐞 Report Bug / Request Feature 🐞
 
-## :information_source: Info :information_source:
-
-Don't forget to leave a star if you like the project ✨
-
-<div align="center">
-
-[![MIT License][license-shield]][license-url]
-[![How to contribute][info-contribute-shield]][info-contribute-url]
-[![Create an issue][info-issues-shield]][info-issues-url]
-
-</div>
+If you found a bug or want to request a feature, you can open an [issue](https://github.com/fescherer/utils/blob/main/ISSUE.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- **********************🐲Be part of this project🐲********************** -->
+<a name="contributing"></a>
+
+## 👋 Be part of this project 👋
+
+Contributions are extremely welcome. You can see how to make one by following the file [Contributing](https://github.com/fescherer/utils/blob/main/CONTRIBUTING.md)
+
+And don't forget to leave a star on the project if you liked it 🤩
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- **********************🐲License🐲********************** -->
+<a name="license"></a>
+
+## ⚖️ License ⚖️
+
+Distributed under the MIT License. See [License](LICENSE.md) for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- **********************🐲Contact Me🐲********************** -->
 
@@ -118,7 +134,7 @@ My name is Felipe Scherer. You can find my socials at [my Github profile](https:
 [issues-shield]: https://img.shields.io/github/issues/fescherer/college-projects.svg?style=for-the-badge
 [issues-url]: https://github.com/fescherer/college-projects/issues
 [license-shield]: https://img.shields.io/github/license/fescherer/college-projects.svg?style=for-the-badge
-[license-url]: https://github.com/fescherer/college-projects/blob/master/LICENSE.md
+[license-url]: https://github.com/fescherer/college-projects/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
 [linkedin-url]: https://www.linkedin.com/in/fescherer
 [youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
