@@ -2,6 +2,10 @@
 
 <div align="center">
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
   <br />
@@ -27,15 +31,12 @@ Database classes projects
 •
 <a href="#usage">How to use</a>
 •
-<a href="#issue">Report Bug / Request Feature</a>
-•
-<a href="#contributing">Contributing</a>
-•
-<a href="#license">License</a>
+<a href="#info">Info</a>
 •
 <a href="#contact">Contact me</a>
 •
 <a href="#contributors">Contributors</a>
+
 </p>
 </div>
 
@@ -43,7 +44,7 @@ Database classes projects
 
 <a name="about"></a>
 
-## 📚 About 📚
+## 📕 About 📕
 
 These are the exercises done in database language classes. Feel free to use the code as much as you like. They were made in MySQL Language and are in portuguese.
 
@@ -74,50 +75,33 @@ To get this project up and running locally on your pc, follow the steps:
 ### Installation
 
 1. Clone the repo
-   ```sh
+  ```sh
    git clone https://github.com/fescherer/college-projects.git
-   ```
-2. Go the files
-   ```sh
+  ```
+2. Go to the folder
+  ```sh
    cd database-lessons
-   ```
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- **********************🐲Report Bug 🐲********************** -->
-<a name="issue"></a>
+<!-- **********************🐲Info🐲********************** -->
 
-## 🐞 Report Bug / Request Feature 🐞
+<a name="info"></a>
 
-If you found a bug or want to request a feature, you can open an [issue](https://github.com/fescherer/utils/blob/main/ISSUE.md)
+## 🌎 Info 🌎
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Don't forget to leave a star if you like the project ✨
 
+<div align="center">
 
-<!-- **********************🐲Be part of this project🐲********************** -->
-<a name="contributing"></a>
+[![MIT License][license-shield]][license-url]
+[![How to contribute][info-contribute-shield]][info-contribute-url]
+[![Create an issue][info-issues-shield]][info-issues-url]
 
-## 👋 Be part of this project 👋
-
-Contributions are extremely welcome. You can see how to make one by following the file [Contributing](https://github.com/fescherer/utils/blob/main/CONTRIBUTING.md)
-
-And don't forget to leave a star on the project if you liked it 🤩
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- **********************🐲License🐲********************** -->
-<a name="license"></a>
-
-## ⚖️ License ⚖️
-
-Distributed under the MIT License. See [License](LICENSE.md) for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+</div>
 
 <!-- **********************🐲Contact Me🐲********************** -->
-
 <a name="contact"></a>
 
 ## 💬 Contact me 💬
@@ -125,7 +109,6 @@ Distributed under the MIT License. See [License](LICENSE.md) for more informatio
 My name is Felipe Scherer. You can find my socials at [my Github profile](https://github.com/fescherer) 😸
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- **********************🐲Contributors🐲********************** -->
 
@@ -137,7 +120,7 @@ My name is Felipe Scherer. You can find my socials at [my Github profile](https:
   <tr>
     <td align="center">
       <a href="https://github.com/fescherer">
-        <img src="https://avatars.githubusercontent.com/u/62115215" width="100px;" alt="Felipe Scherer Picture"/><br>
+        <img src="https://github.com/fescherer.png" width="100px;" alt="Felipe Scherer Picture"/><br>
         <sub>
           <b>Felipe Scherer</b>
         </sub>
@@ -148,8 +131,7 @@ My name is Felipe Scherer. You can find my socials at [my Github profile](https:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
-
+<!-- Badges and Badges Link -->
 [contributors-shield]: https://img.shields.io/github/contributors/fescherer/college-projects.svg?style=for-the-badge
 [contributors-url]: https://github.com/fescherer/college-projects/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/fescherer/college-projects.svg?style=for-the-badge
@@ -158,17 +140,14 @@ My name is Felipe Scherer. You can find my socials at [my Github profile](https:
 [stars-url]: https://github.com/fescherer/college-projects/stargazers
 [issues-shield]: https://img.shields.io/github/issues/fescherer/college-projects.svg?style=for-the-badge
 [issues-url]: https://github.com/fescherer/college-projects/issues
+
 [license-shield]: https://img.shields.io/github/license/fescherer/college-projects.svg?style=for-the-badge
 [license-url]: https://github.com/fescherer/college-projects/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
-[linkedin-url]: https://www.linkedin.com/in/fescherer
-[youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
-[youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
-[github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
-[github-url]: https://github.com/fescherer
-[mysql]: https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white
-[mysql-url]: https://www.mysql.com
 [info-contribute-shield]: https://img.shields.io/badge/👋-How%20to%20contribute-blue.svg?style=for-the-badge
 [info-contribute-url]: https://github.com/fescherer/utils/blob/main/CONTRIBUTING.md
 [info-issues-shield]: https://img.shields.io/badge/🐞-How%20to%20create%20an%20issue-blue.svg?style=for-the-badge
 [info-issues-url]: https://github.com/fescherer/utils/blob/main/ISSUE.md
+
+<!-- https://github.com/Ileriayo/markdown-badges -->
+[mysql]: https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white
+[mysql-url]: https://www.mysql.com

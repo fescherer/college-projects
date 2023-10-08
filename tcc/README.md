@@ -2,6 +2,10 @@
 
 <div align="center">
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
   <br />
@@ -27,15 +31,12 @@ TCC project
 •
 <a href="#usage">How to use</a>
 •
-<a href="#issue">Report Bug / Request Feature</a>
-•
-<a href="#contributing">Contributing</a>
-•
-<a href="#license">License</a>
+<a href="#info">Info</a>
 •
 <a href="#contact">Contact me</a>
 •
 <a href="#contributors">Contributors</a>
+
 </p>
 </div>
 
@@ -43,7 +44,7 @@ TCC project
 
 <a name="about"></a>
 
-## 🎥 About 🎥
+## 📕 About 📕
 
 TCC is the last graduation project done in Brazil. It is usually a project that lasts a year, where the first semester is used to choose the theme and plan. The second is the actual creation of the project.
 
@@ -67,9 +68,10 @@ As this is a survey, I will leave it saved in the repository in the file [PESQUI
 
 <div align="center">
 
-[![HTML 5][html 5]][html-url]
-[![CSS 3][css 3]][css-url]
-[![React JS][react.js]][react-url]
+[![React][reactjs]][react-url]
+[![HTML 5][html-5]][html-url]
+[![CSS 3][css-3]][css-url]
+[![Typescript][typescript]][typescript-url]
 [![Firebase][firebase]][firebase-url]
 [![AWS][aws]][aws-url]
 [![Fast API][fastapi]][fastapi-url]
@@ -86,25 +88,33 @@ As this is a survey, I will leave it saved in the repository in the file [PESQUI
 
 To get this project up and running locally on your pc, follow the steps:
 
+### Pre requisites
+
+- npm
+  ```sh
+   npm install npm@latest -g
+  ```
+
 ### Installation
 
 1. Clone the repo
-   ```sh
+  ```sh
    git clone https://github.com/fescherer/college-projects.git
-   ```
-2. Go the TCC files
-   ```sh
+  ```
+2. Go to project's folder
+  ```sh
    cd tcc
-   ```
-3. Open folder 'frontend' and run:
-   ```
+  ```
+
+3. Install NPM packages
+  ```sh
    npm install
-   npm start
-   ```
+  ```
+
 4. This project uses Firebase as database, so I cannot pass my firebase credentials. If you want to run locally you need to provide your own credentials. For this:
-   4.1. Create a google account;
-   4.2. Login at [firebase site](https://firebase.google.com);
-   4.3. Create a project and get your SDK credentials;
+  4.1. Create a google account;
+  4.2. Login at [firebase site](https://firebase.google.com);
+  4.3. Create a project and get your SDK credentials;
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,37 +137,30 @@ The movie will stay there, but when you create, you have to give an emoji, that 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- **********************🐲Report Bug / Request Feature🐲********************** -->
-<a name="issue"></a>
+<!-- **********************🐲Info🐲********************** -->
 
-## 🐞 Report Bug / Request Feature 🐞
+<a name="info"></a>
 
-If you found a bug or want to request a feature, you can open an [issue](https://github.com/fescherer/utils/blob/main/ISSUE.md)
+## 🌎 Info 🌎
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Don't forget to leave a star if you like the project ✨
 
+<div align="center">
 
-<!-- **********************🐲Be part of this project🐲********************** -->
-<a name="contributing"></a>
+[![MIT License][license-shield]][license-url]
+[![How to contribute][info-contribute-shield]][info-contribute-url]
+[![Create an issue][info-issues-shield]][info-issues-url]
 
-## 👋 Be part of this project 👋
+</div>
 
-Contributions are extremely welcome. You can see how to make one by following the file [Contributing](https://github.com/fescherer/utils/blob/main/CONTRIBUTING.md)
+<!-- **********************🐲Contact Me🐲********************** -->
+<a name="contact"></a>
 
-And don't forget to leave a star on the project if you liked it 🤩
+## 💬 Contact me 💬
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- **********************🐲License🐲********************** -->
-<a name="license"></a>
-
-## ⚖️ License ⚖️
-
-Distributed under the MIT License. See [License](LICENSE) for more information.
+My name is Felipe Scherer. You can find my socials at [my Github profile](https://github.com/fescherer) 😸
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- **********************🐲Contributors🐲********************** -->
 
@@ -169,15 +172,15 @@ Distributed under the MIT License. See [License](LICENSE) for more information.
   <tr>
     <td align="center">
       <a href="https://github.com/fescherer">
-        <img src="https://avatars.githubusercontent.com/u/62115215" width="100px;" alt="Felipe Scherer Picture"/><br>
+        <img src="https://github.com/fescherer.png" width="100px;" alt="Felipe Scherer Picture"/><br>
         <sub>
           <b>Felipe Scherer</b>
         </sub>
       </a>
     </td>
-    <td align="center">
+        <td align="center">
       <a href="https://github.com/viniGuidi">
-        <img src="https://avatars.githubusercontent.com/viniGuidi" width="100px;"  alt="Vinicius Guidi Picture"/><br>
+        <img src="https://github.com/viniGuidi.png" width="100px;" alt="Vinicius Guidi"/><br>
         <sub>
           <b>Vinicius Guidi</b>
         </sub>
@@ -185,7 +188,7 @@ Distributed under the MIT License. See [License](LICENSE) for more information.
     </td>
     <td align="center">
       <a href="https://github.com/Luxyz">
-        <img src="https://avatars.githubusercontent.com/Luxyz" width="100px;"  alt="Jehan Dias Picture"/><br>
+        <img src="https://github.com/Luxyz.png" width="100px;" alt="Jehan Dias"/><br>
         <sub>
           <b>Jehan Dias</b>
         </sub>
@@ -193,7 +196,7 @@ Distributed under the MIT License. See [License](LICENSE) for more information.
     </td>
     <td align="center">
       <a href="https://github.com/kellydena">
-        <img src="https://avatars.githubusercontent.com/kellydena" width="100px;"  alt="Kelly Dena Picture"/><br>
+        <img src="https://github.com/kellydena.png" width="100px;" alt="Kelly Dena"/><br>
         <sub>
           <b>Kelly Dena</b>
         </sub>
@@ -201,7 +204,7 @@ Distributed under the MIT License. See [License](LICENSE) for more information.
     </td>
     <td align="center">
       <a href="https://github.com/danliberato">
-        <img src="https://avatars.githubusercontent.com/danliberato" width="100px;"  alt="Daniel Liberato Picture"/><br>
+        <img src="https://github.com/danliberato.png" width="100px;" alt="Daniel Liberato"/><br>
         <sub>
           <b>Daniel Liberato</b>
         </sub>
@@ -212,8 +215,7 @@ Distributed under the MIT License. See [License](LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
-
+<!-- Badges and Badges Link -->
 [contributors-shield]: https://img.shields.io/github/contributors/fescherer/college-projects.svg?style=for-the-badge
 [contributors-url]: https://github.com/fescherer/college-projects/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/fescherer/college-projects.svg?style=for-the-badge
@@ -222,27 +224,26 @@ Distributed under the MIT License. See [License](LICENSE) for more information.
 [stars-url]: https://github.com/fescherer/college-projects/stargazers
 [issues-shield]: https://img.shields.io/github/issues/fescherer/college-projects.svg?style=for-the-badge
 [issues-url]: https://github.com/fescherer/college-projects/issues
+
 [license-shield]: https://img.shields.io/github/license/fescherer/college-projects.svg?style=for-the-badge
 [license-url]: https://github.com/fescherer/college-projects/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0E76A8
-[linkedin-url]: https://www.linkedin.com/in/fescherer
-[youtube-shield]: https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
-[youtube-url]: https://www.youtube.com/channel/UCySqmz_Rohnl53VLoNQsnKg
-[github-shield]: https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white
-[github-url]: https://github.com/fescherer
-[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[info-contribute-shield]: https://img.shields.io/badge/👋-How%20to%20contribute-blue.svg?style=for-the-badge
+[info-contribute-url]: https://github.com/fescherer/utils/blob/main/CONTRIBUTING.md
+[info-issues-shield]: https://img.shields.io/badge/🐞-How%20to%20create%20an%20issue-blue.svg?style=for-the-badge
+[info-issues-url]: https://github.com/fescherer/utils/blob/main/ISSUE.md
+
+<!-- https://github.com/Ileriayo/markdown-badges -->
+[reactjs]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [react-url]: https://reactjs.org/
-[html 5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[html-5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
-[css 3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[css-3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 [css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[typescript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[typescript-url]: https://www.typescriptlang.org
 [firebase]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white
 [firebase-url]: https://firebase.google.com
 [fastapi]: https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi
 [fastapi-url]: https://fastapi.tiangolo.com
 [aws]: https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white
 [aws-url]: https://aws.amazon.com
-[info-contribute-shield]: https://img.shields.io/badge/👋-How%20to%20contribute-blue.svg?style=for-the-badge
-[info-contribute-url]: https://github.com/fescherer/utils/blob/main/CONTRIBUTING.md
-[info-issues-shield]: https://img.shields.io/badge/🐞-How%20to%20create%20an%20issue-blue.svg?style=for-the-badge
-[info-issues-url]: https://github.com/fescherer/utils/blob/main/ISSUE.md
